@@ -1,0 +1,21 @@
+/* General reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Container */
+.card {
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.card:hover {
+  transform: scale(1.03); /* Scale up by 10% on hover */
+}
